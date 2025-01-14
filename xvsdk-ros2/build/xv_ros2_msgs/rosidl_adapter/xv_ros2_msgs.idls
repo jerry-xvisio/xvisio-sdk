@@ -1,0 +1,13 @@
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs/rosidl_adapter/xv_ros2_msgs:msg/OrientationStamped.idl
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs/rosidl_adapter/xv_ros2_msgs:msg/ColorDepth.idl
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs/rosidl_adapter/xv_ros2_msgs:srv/GetOrientation.idl
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs/rosidl_adapter/xv_ros2_msgs:srv/GetOrientationAt.idl
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs/rosidl_adapter/xv_ros2_msgs:srv/GetPose.idl
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs/rosidl_adapter/xv_ros2_msgs:srv/GetPoseAt.idl
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs/rosidl_adapter/xv_ros2_msgs:srv/LoadMapAndSwitchCslam.idl
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs/rosidl_adapter/xv_ros2_msgs:srv/SaveMapAndSwitchCslam.idl
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs/rosidl_adapter/xv_ros2_msgs:srv/ControllerStart.idl
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs/rosidl_adapter/xv_ros2_msgs:srv/ControllerStop.idl
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs/rosidl_adapter/xv_ros2_msgs:msg/Controller.idl
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs/rosidl_adapter/xv_ros2_msgs:msg/EventData.idl
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs/rosidl_adapter/xv_ros2_msgs:msg/ButtonMsg.idl

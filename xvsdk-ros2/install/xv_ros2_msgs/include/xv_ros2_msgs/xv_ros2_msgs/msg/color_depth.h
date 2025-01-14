@@ -1,0 +1,12 @@
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from xv_ros2_msgs:msg/ColorDepth.idl
+// generated code does not contain a copyright notice
+
+#ifndef XV_ROS2_MSGS__MSG__COLOR_DEPTH_H_
+#define XV_ROS2_MSGS__MSG__COLOR_DEPTH_H_
+
+#include "xv_ros2_msgs/msg/detail/color_depth__struct.h"
+#include "xv_ros2_msgs/msg/detail/color_depth__functions.h"
+#include "xv_ros2_msgs/msg/detail/color_depth__type_support.h"
+
+#endif  // XV_ROS2_MSGS__MSG__COLOR_DEPTH_H_

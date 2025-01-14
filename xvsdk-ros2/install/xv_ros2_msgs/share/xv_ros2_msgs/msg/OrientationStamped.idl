@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from xv_ros2_msgs/msg/OrientationStamped.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module xv_ros2_msgs {
+  module msg {
+    typedef double double__9[9];
+    struct OrientationStamped {
+      std_msgs::msg::Header header;
+
+      double__9 matrix;
+
+      geometry_msgs::msg::Quaternion quaternion;
+
+      geometry_msgs::msg::Vector3 angular_velocity;
+    };
+  };
+};

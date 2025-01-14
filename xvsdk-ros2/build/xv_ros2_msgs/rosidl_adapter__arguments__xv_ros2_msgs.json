@@ -1,0 +1,18 @@
+{
+  "package_name": "xv_ros2_msgs",
+  "non_idl_tuples": [
+    "/workspaces/xvisio-cam/xvsdk-ros2/xv_ros2_msgs:msg/OrientationStamped.msg",
+    "/workspaces/xvisio-cam/xvsdk-ros2/xv_ros2_msgs:msg/ColorDepth.msg",
+    "/workspaces/xvisio-cam/xvsdk-ros2/xv_ros2_msgs:srv/GetOrientation.srv",
+    "/workspaces/xvisio-cam/xvsdk-ros2/xv_ros2_msgs:srv/GetOrientationAt.srv",
+    "/workspaces/xvisio-cam/xvsdk-ros2/xv_ros2_msgs:srv/GetPose.srv",
+    "/workspaces/xvisio-cam/xvsdk-ros2/xv_ros2_msgs:srv/GetPoseAt.srv",
+    "/workspaces/xvisio-cam/xvsdk-ros2/xv_ros2_msgs:srv/LoadMapAndSwitchCslam.srv",
+    "/workspaces/xvisio-cam/xvsdk-ros2/xv_ros2_msgs:srv/SaveMapAndSwitchCslam.srv",
+    "/workspaces/xvisio-cam/xvsdk-ros2/xv_ros2_msgs:srv/ControllerStart.srv",
+    "/workspaces/xvisio-cam/xvsdk-ros2/xv_ros2_msgs:srv/ControllerStop.srv",
+    "/workspaces/xvisio-cam/xvsdk-ros2/xv_ros2_msgs:msg/Controller.msg",
+    "/workspaces/xvisio-cam/xvsdk-ros2/xv_ros2_msgs:msg/EventData.msg",
+    "/workspaces/xvisio-cam/xvsdk-ros2/xv_ros2_msgs:msg/ButtonMsg.msg"
+  ]
+}

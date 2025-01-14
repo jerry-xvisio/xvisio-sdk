@@ -1,0 +1,1 @@
+['-DXVSDK_INCLUDE_DIRS=/usr/include/xvsdk', '-DXVSDK_LIBRARIES=/usr/lib/libxvsdk.so']

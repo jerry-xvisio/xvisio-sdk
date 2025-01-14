@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target xv_cameras[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/xv_cameras.dir/src/xv_ros2_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable xv_cameras[0m
+[100%] Built target xv_cameras
+-- Install configuration: ""
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/lib/xv_sdk_ros2/xv_cameras
+-- Set runtime path of "/workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/lib/xv_sdk_ros2/xv_cameras" to ""
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2//launch
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2//launch/xv_sdk_node_launch.py
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/ament_index/resource_index/package_run_dependencies/xv_sdk_ros2
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/ament_index/resource_index/parent_prefix_path/xv_sdk_ros2
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/environment/ament_prefix_path.sh
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/environment/ament_prefix_path.dsv
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/environment/path.sh
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/environment/path.dsv
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/local_setup.bash
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/local_setup.sh
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/local_setup.zsh
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/local_setup.dsv
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/package.dsv
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/ament_index/resource_index/packages/xv_sdk_ros2
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/cmake/xv_sdk_ros2Config.cmake
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/cmake/xv_sdk_ros2Config-version.cmake
+-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/package.xml

@@ -1,0 +1,12 @@
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from xv_ros2_msgs:srv/GetOrientationAt.idl
+// generated code does not contain a copyright notice
+
+#ifndef XV_ROS2_MSGS__SRV__GET_ORIENTATION_AT_H_
+#define XV_ROS2_MSGS__SRV__GET_ORIENTATION_AT_H_
+
+#include "xv_ros2_msgs/srv/detail/get_orientation_at__struct.h"
+#include "xv_ros2_msgs/srv/detail/get_orientation_at__functions.h"
+#include "xv_ros2_msgs/srv/detail/get_orientation_at__type_support.h"
+
+#endif  // XV_ROS2_MSGS__SRV__GET_ORIENTATION_AT_H_

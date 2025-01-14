@@ -1,0 +1,25 @@
+[01m[K/workspaces/xvisio-cam/xvsdk-ros2/xv_sdk_ros2/src/xv_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid xvision_ros2_node::watchControllers()[m[K’:
+[01m[K/workspaces/xvisio-cam/xvsdk-ros2/xv_sdk_ros2/src/xv_ros2_node.cpp:722:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+  722 |         xv::setLogLevel(xv::LogLevel::info);111111111111111
+      |                                                            [01;31m[K^[m[K
+      |                                                            [32m[K;[m[K
+  723 |         [32m[Kstd[m[K::map<std::string, std::shared_ptr<Device>> controller_map;
+      |         [32m[K~~~[m[K                                                 
+[01m[K/workspaces/xvisio-cam/xvsdk-ros2/xv_sdk_ros2/src/xv_ros2_node.cpp:722:45:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+  722 |         xv::setLogLevel(xv::LogLevel::info);[01;35m[K111111111111111[m[K
+      |                                             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/xvisio-cam/xvsdk-ros2/xv_sdk_ros2/src/xv_ros2_node.cpp:733:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontroller_map[m[K’ was not declared in this scope; did you mean ‘[01m[Km_controllerMap[m[K’?
+  733 |             [01;31m[Kcontroller_map[m[K = getDevices(.0, json, nullptr, xv::SlamStartMode::Normal, xv::DeviceSupport::ONLY_WIRELESS_CONTROLLER);
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+      |             [32m[Km_controllerMap[m[K
+[01m[K/workspaces/xvisio-cam/xvsdk-ros2/xv_sdk_ros2/src/xv_ros2_node.cpp:737:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontroller_map[m[K’ was not declared in this scope; did you mean ‘[01m[Km_controllerMap[m[K’?
+  737 |             [01;31m[Kcontroller_map[m[K = getDevices(.0, "", nullptr, xv::SlamStartMode::Normal, xv::DeviceSupport::ONLY_WIRELESS_CONTROLLER);
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+      |             [32m[Km_controllerMap[m[K
+[01m[K/workspaces/xvisio-cam/xvsdk-ros2/xv_sdk_ros2/src/xv_ros2_node.cpp:740:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontroller_map[m[K’ was not declared in this scope; did you mean ‘[01m[Km_controllerMap[m[K’?
+  740 |         for(auto &pair : [01;31m[Kcontroller_map[m[K)
+      |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                          [32m[Km_controllerMap[m[K
+gmake[2]: *** [CMakeFiles/xv_cameras.dir/build.make:90: CMakeFiles/xv_cameras.dir/src/xv_ros2_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xv_cameras.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

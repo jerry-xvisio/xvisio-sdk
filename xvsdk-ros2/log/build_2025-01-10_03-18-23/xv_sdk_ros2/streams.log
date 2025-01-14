@@ -1,0 +1,28 @@
+[0.008s] Invoking command in '/workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2': AMENT_PREFIX_PATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs:/home/ros/ros2_ws/install/xv_sdk_ros2:/home/ros/ros2_ws/install/xv_ros2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2 -- -j8 -l8
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target xv_cameras[0m
+[0.050s] [ 25%] [32mBuilding CXX object CMakeFiles/xv_cameras.dir/src/xv_ros2_node.cpp.o[0m
+[12.147s] [ 50%] [32m[1mLinking CXX executable xv_cameras[0m
+[13.189s] [100%] Built target xv_cameras
+[13.195s] Invoked command in '/workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2' returned '0': AMENT_PREFIX_PATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs:/home/ros/ros2_ws/install/xv_sdk_ros2:/home/ros/ros2_ws/install/xv_ros2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2 -- -j8 -l8
+[13.219s] Invoking command in '/workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2': AMENT_PREFIX_PATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs:/home/ros/ros2_ws/install/xv_sdk_ros2:/home/ros/ros2_ws/install/xv_ros2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2
+[13.224s] -- Install configuration: ""
+[13.224s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/lib/xv_sdk_ros2/xv_cameras
+[13.233s] -- Set runtime path of "/workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/lib/xv_sdk_ros2/xv_cameras" to ""
+[13.233s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2//launch
+[13.233s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2//launch/xv_sdk_node_launch.py
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/ament_index/resource_index/package_run_dependencies/xv_sdk_ros2
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/ament_index/resource_index/parent_prefix_path/xv_sdk_ros2
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/environment/ament_prefix_path.sh
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/environment/ament_prefix_path.dsv
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/environment/path.sh
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/environment/path.dsv
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/local_setup.bash
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/local_setup.sh
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/local_setup.zsh
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/local_setup.dsv
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/package.dsv
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/ament_index/resource_index/packages/xv_sdk_ros2
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/cmake/xv_sdk_ros2Config.cmake
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/cmake/xv_sdk_ros2Config-version.cmake
+[13.234s] -- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_sdk_ros2/share/xv_sdk_ros2/package.xml
+[13.236s] Invoked command in '/workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2' returned '0': AMENT_PREFIX_PATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs:/home/ros/ros2_ws/install/xv_sdk_ros2:/home/ros/ros2_ws/install/xv_ros2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2

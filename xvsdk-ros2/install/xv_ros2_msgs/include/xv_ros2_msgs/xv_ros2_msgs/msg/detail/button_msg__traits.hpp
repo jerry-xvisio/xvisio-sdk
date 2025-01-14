@@ -1,0 +1,129 @@
+// generated from rosidl_generator_cpp/resource/idl__traits.hpp.em
+// with input from xv_ros2_msgs:msg/ButtonMsg.idl
+// generated code does not contain a copyright notice
+
+#ifndef XV_ROS2_MSGS__MSG__DETAIL__BUTTON_MSG__TRAITS_HPP_
+#define XV_ROS2_MSGS__MSG__DETAIL__BUTTON_MSG__TRAITS_HPP_
+
+#include <stdint.h>
+
+#include <sstream>
+#include <string>
+#include <type_traits>
+
+#include "xv_ros2_msgs/msg/detail/button_msg__struct.hpp"
+#include "rosidl_runtime_cpp/traits.hpp"
+
+// Include directives for member types
+// Member 'header'
+#include "std_msgs/msg/detail/header__traits.hpp"
+
+namespace xv_ros2_msgs
+{
+
+namespace msg
+{
+
+inline void to_flow_style_yaml(
+  const ButtonMsg & msg,
+  std::ostream & out)
+{
+  out << "{";
+  // member: header
+  {
+    out << "header: ";
+    to_flow_style_yaml(msg.header, out);
+    out << ", ";
+  }
+
+  // member: state
+  {
+    out << "state: ";
+    rosidl_generator_traits::value_to_yaml(msg.state, out);
+  }
+  out << "}";
+}  // NOLINT(readability/fn_size)
+
+inline void to_block_style_yaml(
+  const ButtonMsg & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  // member: header
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "header:\n";
+    to_block_style_yaml(msg.header, out, indentation + 2);
+  }
+
+  // member: state
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "state: ";
+    rosidl_generator_traits::value_to_yaml(msg.state, out);
+    out << "\n";
+  }
+}  // NOLINT(readability/fn_size)
+
+inline std::string to_yaml(const ButtonMsg & msg, bool use_flow_style = false)
+{
+  std::ostringstream out;
+  if (use_flow_style) {
+    to_flow_style_yaml(msg, out);
+  } else {
+    to_block_style_yaml(msg, out);
+  }
+  return out.str();
+}
+
+}  // namespace msg
+
+}  // namespace xv_ros2_msgs
+
+namespace rosidl_generator_traits
+{
+
+[[deprecated("use xv_ros2_msgs::msg::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const xv_ros2_msgs::msg::ButtonMsg & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  xv_ros2_msgs::msg::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use xv_ros2_msgs::msg::to_yaml() instead")]]
+inline std::string to_yaml(const xv_ros2_msgs::msg::ButtonMsg & msg)
+{
+  return xv_ros2_msgs::msg::to_yaml(msg);
+}
+
+template<>
+inline const char * data_type<xv_ros2_msgs::msg::ButtonMsg>()
+{
+  return "xv_ros2_msgs::msg::ButtonMsg";
+}
+
+template<>
+inline const char * name<xv_ros2_msgs::msg::ButtonMsg>()
+{
+  return "xv_ros2_msgs/msg/ButtonMsg";
+}
+
+template<>
+struct has_fixed_size<xv_ros2_msgs::msg::ButtonMsg>
+  : std::integral_constant<bool, has_fixed_size<std_msgs::msg::Header>::value> {};
+
+template<>
+struct has_bounded_size<xv_ros2_msgs::msg::ButtonMsg>
+  : std::integral_constant<bool, has_bounded_size<std_msgs::msg::Header>::value> {};
+
+template<>
+struct is_message<xv_ros2_msgs::msg::ButtonMsg>
+  : std::true_type {};
+
+}  // namespace rosidl_generator_traits
+
+#endif  // XV_ROS2_MSGS__MSG__DETAIL__BUTTON_MSG__TRAITS_HPP_

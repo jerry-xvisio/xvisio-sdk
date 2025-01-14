@@ -1,0 +1,10 @@
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2/CMakeFiles/uninstall.dir
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2/CMakeFiles/xv_sdk_ros2_uninstall.dir
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2/CMakeFiles/xv_cameras.dir
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2/CMakeFiles/test.dir
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2/CMakeFiles/edit_cache.dir
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2/CMakeFiles/rebuild_cache.dir
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2/CMakeFiles/list_install_components.dir
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2/CMakeFiles/install.dir
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2/CMakeFiles/install/local.dir
+/workspaces/xvisio-cam/xvsdk-ros2/build/xv_sdk_ros2/CMakeFiles/install/strip.dir

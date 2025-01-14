@@ -1,0 +1,703 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (-) JobUnselected: {'identifier': 'xv_sdk_ros2'}
+[0.000195] (xv_ros2_msgs) JobQueued: {'identifier': 'xv_ros2_msgs', 'dependencies': OrderedDict()}
+[0.001095] (xv_ros2_msgs) JobStarted: {'identifier': 'xv_ros2_msgs'}
+[0.006054] (xv_ros2_msgs) JobProgress: {'identifier': 'xv_ros2_msgs', 'progress': 'cmake'}
+[0.006174] (xv_ros2_msgs) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/xvisio-cam/xvsdk-ros2/xv_ros2_msgs', '-DCMAKE_INSTALL_PREFIX=/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs'], 'cwd': '/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs', 'env': OrderedDict([('HOSTNAME', '1b0a482909a8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros/ros2_ws/install/xv_ros2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/xvisio-cam'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/xdg_runtime_ros'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ros/ros2_ws/install/xv_sdk_ros2:/home/ros/ros2_ws/install/xv_ros2_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros/ros2_ws/install/xv_ros2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ros2_ws/install/xv_sdk_ros2:/home/ros/ros2_ws/install/xv_ros2_msgs:/opt/ros/humble')]), 'shell': False}
+[0.040276] (xv_ros2_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.076464] (xv_ros2_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.080744] (xv_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099914] (-) TimerEvent: {}
+[0.122255] (xv_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.126622] (xv_ros2_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.126733] (xv_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.126968] (xv_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.128675] (xv_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.177181] (xv_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.181703] (xv_ros2_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.181829] (xv_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.182101] (xv_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.183364] (xv_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200014] (-) TimerEvent: {}
+[0.264502] (xv_ros2_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.300186] (-) TimerEvent: {}
+[0.315605] (xv_ros2_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.317233] (xv_ros2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.320595] (xv_ros2_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.343110] (xv_ros2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.363368] (xv_ros2_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.380076] (xv_ros2_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.400286] (-) TimerEvent: {}
+[0.500515] (-) TimerEvent: {}
+[0.600754] (-) TimerEvent: {}
+[0.630019] (xv_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700865] (-) TimerEvent: {}
+[0.777318] (xv_ros2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800934] (-) TimerEvent: {}
+[0.901225] (-) TimerEvent: {}
+[0.961621] (xv_ros2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.972221] (xv_ros2_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.973343] (xv_ros2_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.985311] (xv_ros2_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.985461] (xv_ros2_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.985524] (xv_ros2_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.985602] (xv_ros2_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.996480] (xv_ros2_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.001303] (-) TimerEvent: {}
+[1.032769] (xv_ros2_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.043774] (xv_ros2_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.045027] (xv_ros2_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.045795] (xv_ros2_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.047103] (xv_ros2_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.081711] (xv_ros2_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.083389] (xv_ros2_msgs) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs\n'}
+[1.087708] (xv_ros2_msgs) CommandEnded: {'returncode': 0}
+[1.089113] (xv_ros2_msgs) JobProgress: {'identifier': 'xv_ros2_msgs', 'progress': 'build'}
+[1.089149] (xv_ros2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs', '--', '-j8', '-l8'], 'cwd': '/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs', 'env': OrderedDict([('HOSTNAME', '1b0a482909a8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros/ros2_ws/install/xv_ros2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/xvisio-cam'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/xdg_runtime_ros'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ros/ros2_ws/install/xv_sdk_ros2:/home/ros/ros2_ws/install/xv_ros2_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros/ros2_ws/install/xv_ros2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ros2_ws/install/xv_sdk_ros2:/home/ros/ros2_ws/install/xv_ros2_msgs:/opt/ros/humble')]), 'shell': False}
+[1.101414] (-) TimerEvent: {}
+[1.117213] (xv_ros2_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.123963] (xv_ros2_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.128637] (xv_ros2_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_xv_ros2_msgs\n'}
+[1.201529] (-) TimerEvent: {}
+[1.270006] (xv_ros2_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.270536] (xv_ros2_msgs) StdoutLine: {'line': b'creating xv_ros2_msgs.egg-info\n'}
+[1.270715] (xv_ros2_msgs) StdoutLine: {'line': b'writing xv_ros2_msgs.egg-info/PKG-INFO\n'}
+[1.270836] (xv_ros2_msgs) StdoutLine: {'line': b'writing dependency_links to xv_ros2_msgs.egg-info/dependency_links.txt\n'}
+[1.270941] (xv_ros2_msgs) StdoutLine: {'line': b'writing top-level names to xv_ros2_msgs.egg-info/top_level.txt\n'}
+[1.271060] (xv_ros2_msgs) StdoutLine: {'line': b"writing manifest file 'xv_ros2_msgs.egg-info/SOURCES.txt'\n"}
+[1.272441] (xv_ros2_msgs) StdoutLine: {'line': b"reading manifest file 'xv_ros2_msgs.egg-info/SOURCES.txt'\n"}
+[1.272854] (xv_ros2_msgs) StdoutLine: {'line': b"writing manifest file 'xv_ros2_msgs.egg-info/SOURCES.txt'\n"}
+[1.292180] (xv_ros2_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_xv_ros2_msgs_egg\n'}
+[1.301642] (-) TimerEvent: {}
+[1.401895] (-) TimerEvent: {}
+[1.502202] (-) TimerEvent: {}
+[1.602482] (-) TimerEvent: {}
+[1.702775] (-) TimerEvent: {}
+[1.803142] (-) TimerEvent: {}
+[1.903498] (-) TimerEvent: {}
+[2.003756] (-) TimerEvent: {}
+[2.008843] (xv_ros2_msgs) StdoutLine: {'line': b'[  1%] Built target xv_ros2_msgs__cpp\n'}
+[2.017190] (xv_ros2_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.017425] (xv_ros2_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.017511] (xv_ros2_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.105436] (-) TimerEvent: {}
+[2.174510] (xv_ros2_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xv_ros2_msgs/msg/detail/color_depth__functions.c.o\x1b[0m\n'}
+[2.174740] (xv_ros2_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xv_ros2_msgs/srv/detail/get_orientation__functions.c.o\x1b[0m\n'}
+[2.174834] (xv_ros2_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xv_ros2_msgs/msg/detail/orientation_stamped__functions.c.o\x1b[0m\n'}
+[2.174921] (xv_ros2_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xv_ros2_msgs/srv/detail/get_pose__functions.c.o\x1b[0m\n'}
+[2.175011] (xv_ros2_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xv_ros2_msgs/srv/detail/get_orientation_at__functions.c.o\x1b[0m\n'}
+[2.206637] (-) TimerEvent: {}
+[2.251501] (xv_ros2_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__functions.c.o\x1b[0m\n'}
+[2.252909] (xv_ros2_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xv_ros2_msgs/srv/detail/get_pose_at__functions.c.o\x1b[0m\n'}
+[2.256332] (xv_ros2_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__functions.c.o\x1b[0m\n'}
+[2.261404] (xv_ros2_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xv_ros2_msgs/srv/detail/controller_start__functions.c.o\x1b[0m\n'}
+[2.263013] (xv_ros2_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xv_ros2_msgs/srv/detail/controller_stop__functions.c.o\x1b[0m\n'}
+[2.306809] (-) TimerEvent: {}
+[2.333260] (xv_ros2_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xv_ros2_msgs/msg/detail/controller__functions.c.o\x1b[0m\n'}
+[2.339492] (xv_ros2_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xv_ros2_msgs/msg/detail/event_data__functions.c.o\x1b[0m\n'}
+[2.340782] (xv_ros2_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xv_ros2_msgs/msg/detail/button_msg__functions.c.o\x1b[0m\n'}
+[2.396056] (xv_ros2_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libxv_ros2_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.406902] (-) TimerEvent: {}
+[2.430944] (xv_ros2_msgs) StdoutLine: {'line': b'[ 14%] Built target xv_ros2_msgs__rosidl_generator_c\n'}
+[2.442365] (xv_ros2_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.443620] (xv_ros2_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.444136] (xv_ros2_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.507006] (-) TimerEvent: {}
+[2.607328] (-) TimerEvent: {}
+[2.707629] (-) TimerEvent: {}
+[2.808077] (-) TimerEvent: {}
+[2.909015] (-) TimerEvent: {}
+[3.011619] (-) TimerEvent: {}
+[3.012137] (xv_ros2_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xv_ros2_msgs/msg/detail/orientation_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.014638] (xv_ros2_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xv_ros2_msgs/msg/detail/color_depth__type_support.cpp.o\x1b[0m\n'}
+[3.019618] (xv_ros2_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xv_ros2_msgs/srv/detail/get_orientation__type_support.cpp.o\x1b[0m\n'}
+[3.114634] (-) TimerEvent: {}
+[3.214984] (-) TimerEvent: {}
+[3.215744] (xv_ros2_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xv_ros2_msgs/msg/orientation_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.281062] (xv_ros2_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xv_ros2_msgs/msg/orientation_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.315105] (-) TimerEvent: {}
+[3.325445] (xv_ros2_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xv_ros2_msgs/msg/color_depth__type_support.cpp.o\x1b[0m\n'}
+[3.372629] (xv_ros2_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xv_ros2_msgs/srv/get_orientation__type_support.cpp.o\x1b[0m\n'}
+[3.415221] (-) TimerEvent: {}
+[3.417914] (xv_ros2_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xv_ros2_msgs/srv/get_orientation_at__type_support.cpp.o\x1b[0m\n'}
+[3.466615] (xv_ros2_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xv_ros2_msgs/srv/get_pose__type_support.cpp.o\x1b[0m\n'}
+[3.512103] (xv_ros2_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xv_ros2_msgs/srv/get_pose_at__type_support.cpp.o\x1b[0m\n'}
+[3.515313] (-) TimerEvent: {}
+[3.560523] (xv_ros2_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xv_ros2_msgs/srv/load_map_and_switch_cslam__type_support.cpp.o\x1b[0m\n'}
+[3.562003] (xv_ros2_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xv_ros2_msgs/srv/save_map_and_switch_cslam__type_support.cpp.o\x1b[0m\n'}
+[3.569627] (xv_ros2_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xv_ros2_msgs/srv/controller_start__type_support.cpp.o\x1b[0m\n'}
+[3.604620] (xv_ros2_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xv_ros2_msgs/msg/color_depth__type_support.cpp.o\x1b[0m\n'}
+[3.606738] (xv_ros2_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xv_ros2_msgs/srv/get_orientation__type_support.cpp.o\x1b[0m\n'}
+[3.611029] (xv_ros2_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xv_ros2_msgs/srv/detail/get_orientation_at__type_support.cpp.o\x1b[0m\n'}
+[3.613897] (xv_ros2_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xv_ros2_msgs/srv/controller_stop__type_support.cpp.o\x1b[0m\n'}
+[3.615401] (-) TimerEvent: {}
+[3.633763] (xv_ros2_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xv_ros2_msgs/srv/detail/get_pose__type_support.cpp.o\x1b[0m\n'}
+[3.662631] (xv_ros2_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xv_ros2_msgs/msg/controller__type_support.cpp.o\x1b[0m\n'}
+[3.703635] (xv_ros2_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xv_ros2_msgs/msg/event_data__type_support.cpp.o\x1b[0m\n'}
+[3.715510] (-) TimerEvent: {}
+[3.747172] (xv_ros2_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xv_ros2_msgs/msg/button_msg__type_support.cpp.o\x1b[0m\n'}
+[3.792624] (xv_ros2_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libxv_ros2_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.815627] (-) TimerEvent: {}
+[3.857711] (xv_ros2_msgs) StdoutLine: {'line': b'[ 34%] Built target xv_ros2_msgs__rosidl_typesupport_c\n'}
+[3.865174] (xv_ros2_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xv_ros2_msgs/srv/get_orientation_at__type_support.cpp.o\x1b[0m\n'}
+[3.915740] (-) TimerEvent: {}
+[3.941727] (xv_ros2_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xv_ros2_msgs/msg/detail/dds_fastrtps/orientation_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.970065] (xv_ros2_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xv_ros2_msgs/srv/detail/get_pose_at__type_support.cpp.o\x1b[0m\n'}
+[3.996636] (xv_ros2_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__type_support.cpp.o\x1b[0m\n'}
+[4.015858] (-) TimerEvent: {}
+[4.116226] (-) TimerEvent: {}
+[4.202299] (xv_ros2_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xv_ros2_msgs/msg/detail/dds_fastrtps/color_depth__type_support.cpp.o\x1b[0m\n'}
+[4.212267] (xv_ros2_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xv_ros2_msgs/srv/get_pose__type_support.cpp.o\x1b[0m\n'}
+[4.216879] (-) TimerEvent: {}
+[4.248235] (xv_ros2_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xv_ros2_msgs/srv/detail/dds_fastrtps/get_orientation__type_support.cpp.o\x1b[0m\n'}
+[4.306615] (xv_ros2_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xv_ros2_msgs/msg/detail/orientation_stamped__type_support.c.o\x1b[0m\n'}
+[4.316998] (-) TimerEvent: {}
+[4.363277] (xv_ros2_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xv_ros2_msgs/msg/detail/color_depth__type_support.c.o\x1b[0m\n'}
+[4.385683] (xv_ros2_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xv_ros2_msgs/msg/detail/orientation_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[4.417119] (-) TimerEvent: {}
+[4.418967] (xv_ros2_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xv_ros2_msgs/srv/detail/get_orientation__type_support.c.o\x1b[0m\n'}
+[4.473115] (xv_ros2_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xv_ros2_msgs/srv/detail/get_orientation_at__type_support.c.o\x1b[0m\n'}
+[4.505545] (xv_ros2_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xv_ros2_msgs/srv/detail/get_pose__type_support.c.o\x1b[0m\n'}
+[4.517234] (-) TimerEvent: {}
+[4.524915] (xv_ros2_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xv_ros2_msgs/srv/get_pose_at__type_support.cpp.o\x1b[0m\n'}
+[4.526942] (xv_ros2_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xv_ros2_msgs/msg/detail/color_depth__type_support_c.cpp.o\x1b[0m\n'}
+[4.529120] (xv_ros2_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__type_support.cpp.o\x1b[0m\n'}
+[4.564743] (xv_ros2_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xv_ros2_msgs/srv/detail/get_pose_at__type_support.c.o\x1b[0m\n'}
+[4.588652] (xv_ros2_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xv_ros2_msgs/srv/detail/get_orientation__type_support_c.cpp.o\x1b[0m\n'}
+[4.617357] (-) TimerEvent: {}
+[4.620854] (xv_ros2_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__type_support.c.o\x1b[0m\n'}
+[4.674513] (xv_ros2_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__type_support.c.o\x1b[0m\n'}
+[4.717471] (-) TimerEvent: {}
+[4.745843] (xv_ros2_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xv_ros2_msgs/srv/detail/controller_start__type_support.c.o\x1b[0m\n'}
+[4.797061] (xv_ros2_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xv_ros2_msgs/srv/detail/controller_stop__type_support.c.o\x1b[0m\n'}
+[4.817605] (-) TimerEvent: {}
+[4.831733] (xv_ros2_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xv_ros2_msgs/msg/detail/controller__type_support.c.o\x1b[0m\n'}
+[4.851681] (xv_ros2_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xv_ros2_msgs/srv/detail/controller_start__type_support.cpp.o\x1b[0m\n'}
+[4.878453] (xv_ros2_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xv_ros2_msgs/msg/detail/event_data__type_support.c.o\x1b[0m\n'}
+[4.888762] (xv_ros2_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xv_ros2_msgs/srv/detail/dds_fastrtps/get_orientation_at__type_support.cpp.o\x1b[0m\n'}
+[4.890442] (xv_ros2_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xv_ros2_msgs/srv/load_map_and_switch_cslam__type_support.cpp.o\x1b[0m\n'}
+[4.916303] (xv_ros2_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xv_ros2_msgs/srv/detail/get_orientation_at__type_support_c.cpp.o\x1b[0m\n'}
+[4.917704] (-) TimerEvent: {}
+[4.935055] (xv_ros2_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xv_ros2_msgs/msg/detail/button_msg__type_support.c.o\x1b[0m\n'}
+[4.987679] (xv_ros2_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libxv_ros2_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.009875] (xv_ros2_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xv_ros2_msgs/srv/save_map_and_switch_cslam__type_support.cpp.o\x1b[0m\n'}
+[5.017826] (-) TimerEvent: {}
+[5.029857] (xv_ros2_msgs) StdoutLine: {'line': b'[ 59%] Built target xv_ros2_msgs__rosidl_typesupport_introspection_c\n'}
+[5.041487] (xv_ros2_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xv_ros2_msgs/srv/detail/controller_stop__type_support.cpp.o\x1b[0m\n'}
+[5.071554] (xv_ros2_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xv_ros2_msgs/srv/detail/dds_fastrtps/get_pose__type_support.cpp.o\x1b[0m\n'}
+[5.097871] (xv_ros2_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xv_ros2_msgs/msg/detail/controller__type_support.cpp.o\x1b[0m\n'}
+[5.117950] (-) TimerEvent: {}
+[5.218309] (-) TimerEvent: {}
+[5.308652] (xv_ros2_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xv_ros2_msgs/srv/detail/get_pose__type_support_c.cpp.o\x1b[0m\n'}
+[5.318434] (-) TimerEvent: {}
+[5.391577] (xv_ros2_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xv_ros2_msgs/srv/detail/dds_fastrtps/get_pose_at__type_support.cpp.o\x1b[0m\n'}
+[5.397473] (xv_ros2_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xv_ros2_msgs/srv/controller_start__type_support.cpp.o\x1b[0m\n'}
+[5.417716] (xv_ros2_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xv_ros2_msgs/srv/detail/dds_fastrtps/load_map_and_switch_cslam__type_support.cpp.o\x1b[0m\n'}
+[5.418513] (-) TimerEvent: {}
+[5.468572] (xv_ros2_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xv_ros2_msgs/msg/detail/event_data__type_support.cpp.o\x1b[0m\n'}
+[5.520647] (-) TimerEvent: {}
+[5.587893] (xv_ros2_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xv_ros2_msgs/srv/controller_stop__type_support.cpp.o\x1b[0m\n'}
+[5.620762] (-) TimerEvent: {}
+[5.641500] (xv_ros2_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xv_ros2_msgs/msg/controller__type_support.cpp.o\x1b[0m\n'}
+[5.663335] (xv_ros2_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xv_ros2_msgs/msg/detail/button_msg__type_support.cpp.o\x1b[0m\n'}
+[5.720881] (-) TimerEvent: {}
+[5.783279] (xv_ros2_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xv_ros2_msgs/srv/detail/dds_fastrtps/save_map_and_switch_cslam__type_support.cpp.o\x1b[0m\n'}
+[5.821671] (-) TimerEvent: {}
+[5.831313] (xv_ros2_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xv_ros2_msgs/srv/detail/get_pose_at__type_support_c.cpp.o\x1b[0m\n'}
+[5.921796] (-) TimerEvent: {}
+[5.966432] (xv_ros2_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xv_ros2_msgs/srv/detail/dds_fastrtps/controller_start__type_support.cpp.o\x1b[0m\n'}
+[5.972992] (xv_ros2_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xv_ros2_msgs/msg/event_data__type_support.cpp.o\x1b[0m\n'}
+[6.000505] (xv_ros2_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xv_ros2_msgs/srv/detail/dds_fastrtps/controller_stop__type_support.cpp.o\x1b[0m\n'}
+[6.011474] (xv_ros2_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__type_support_c.cpp.o\x1b[0m\n'}
+[6.021918] (-) TimerEvent: {}
+[6.036814] (xv_ros2_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__type_support_c.cpp.o\x1b[0m\n'}
+[6.122037] (-) TimerEvent: {}
+[6.200821] (xv_ros2_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libxv_ros2_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.222166] (-) TimerEvent: {}
+[6.319161] (xv_ros2_msgs) StdoutLine: {'line': b'[ 75%] Built target xv_ros2_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.322642] (-) TimerEvent: {}
+[6.332637] (xv_ros2_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xv_ros2_msgs/msg/button_msg__type_support.cpp.o\x1b[0m\n'}
+[6.348717] (xv_ros2_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xv_ros2_msgs/msg/detail/dds_fastrtps/controller__type_support.cpp.o\x1b[0m\n'}
+[6.369680] (xv_ros2_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xv_ros2_msgs/srv/detail/controller_start__type_support_c.cpp.o\x1b[0m\n'}
+[6.381629] (xv_ros2_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xv_ros2_msgs/srv/detail/controller_stop__type_support_c.cpp.o\x1b[0m\n'}
+[6.422778] (-) TimerEvent: {}
+[6.523218] (-) TimerEvent: {}
+[6.525612] (xv_ros2_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xv_ros2_msgs/msg/detail/dds_fastrtps/event_data__type_support.cpp.o\x1b[0m\n'}
+[6.550586] (xv_ros2_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xv_ros2_msgs/msg/detail/dds_fastrtps/button_msg__type_support.cpp.o\x1b[0m\n'}
+[6.567521] (xv_ros2_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xv_ros2_msgs/msg/detail/controller__type_support_c.cpp.o\x1b[0m\n'}
+[6.591971] (xv_ros2_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xv_ros2_msgs/msg/detail/event_data__type_support_c.cpp.o\x1b[0m\n'}
+[6.623410] (-) TimerEvent: {}
+[6.716328] (xv_ros2_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libxv_ros2_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.723527] (-) TimerEvent: {}
+[6.779341] (xv_ros2_msgs) StdoutLine: {'line': b'[ 82%] Built target xv_ros2_msgs__rosidl_typesupport_cpp\n'}
+[6.791366] (xv_ros2_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xv_ros2_msgs/msg/detail/button_msg__type_support_c.cpp.o\x1b[0m\n'}
+[6.823655] (-) TimerEvent: {}
+[6.924062] (-) TimerEvent: {}
+[7.024467] (-) TimerEvent: {}
+[7.038854] (xv_ros2_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libxv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.096237] (xv_ros2_msgs) StdoutLine: {'line': b'[ 83%] Built target xv_ros2_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.110811] (xv_ros2_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libxv_ros2_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.124577] (-) TimerEvent: {}
+[7.162503] (xv_ros2_msgs) StdoutLine: {'line': b'[ 84%] Built target xv_ros2_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.175286] (xv_ros2_msgs) StdoutLine: {'line': b'[ 84%] Built target xv_ros2_msgs\n'}
+[7.187793] (xv_ros2_msgs) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.224699] (-) TimerEvent: {}
+[7.325056] (-) TimerEvent: {}
+[7.425441] (-) TimerEvent: {}
+[7.525741] (-) TimerEvent: {}
+[7.626068] (-) TimerEvent: {}
+[7.726327] (-) TimerEvent: {}
+[7.826689] (-) TimerEvent: {}
+[7.926953] (-) TimerEvent: {}
+[8.027256] (-) TimerEvent: {}
+[8.127601] (-) TimerEvent: {}
+[8.227955] (-) TimerEvent: {}
+[8.328310] (-) TimerEvent: {}
+[8.428657] (-) TimerEvent: {}
+[8.528938] (-) TimerEvent: {}
+[8.629286] (-) TimerEvent: {}
+[8.729582] (-) TimerEvent: {}
+[8.808231] (xv_ros2_msgs) StdoutLine: {'line': b'[ 85%] Built target xv_ros2_msgs__py\n'}
+[8.825815] (xv_ros2_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xv_ros2_msgs/srv/_get_orientation_s.c.o\x1b[0m\n'}
+[8.826106] (xv_ros2_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xv_ros2_msgs/msg/_orientation_stamped_s.c.o\x1b[0m\n'}
+[8.826183] (xv_ros2_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xv_ros2_msgs/srv/_get_pose_s.c.o\x1b[0m\n'}
+[8.826244] (xv_ros2_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xv_ros2_msgs/msg/_color_depth_s.c.o\x1b[0m\n'}
+[8.826291] (xv_ros2_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xv_ros2_msgs/srv/_get_orientation_at_s.c.o\x1b[0m\n'}
+[8.826333] (xv_ros2_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xv_ros2_msgs/srv/_get_pose_at_s.c.o\x1b[0m\n'}
+[8.826390] (xv_ros2_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xv_ros2_msgs/srv/_load_map_and_switch_cslam_s.c.o\x1b[0m\n'}
+[8.826433] (xv_ros2_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xv_ros2_msgs/srv/_save_map_and_switch_cslam_s.c.o\x1b[0m\n'}
+[8.830675] (-) TimerEvent: {}
+[8.931129] (-) TimerEvent: {}
+[8.982525] (xv_ros2_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xv_ros2_msgs/srv/_controller_stop_s.c.o\x1b[0m\n'}
+[8.982823] (xv_ros2_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xv_ros2_msgs/msg/_event_data_s.c.o\x1b[0m\n'}
+[8.983033] (xv_ros2_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xv_ros2_msgs/srv/_controller_start_s.c.o\x1b[0m\n'}
+[8.983326] (xv_ros2_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xv_ros2_msgs/msg/_controller_s.c.o\x1b[0m\n'}
+[8.985910] (xv_ros2_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xv_ros2_msgs/msg/_button_msg_s.c.o\x1b[0m\n'}
+[9.031251] (-) TimerEvent: {}
+[9.104174] (xv_ros2_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xv_ros2_msgs/libxv_ros2_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[9.131433] (-) TimerEvent: {}
+[9.138592] (xv_ros2_msgs) StdoutLine: {'line': b'[ 96%] Built target xv_ros2_msgs__rosidl_generator_py\n'}
+[9.152353] (xv_ros2_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xv_ros2_msgs/_xv_ros2_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.152538] (xv_ros2_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xv_ros2_msgs/_xv_ros2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.152599] (xv_ros2_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/xv_ros2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xv_ros2_msgs/_xv_ros2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.231621] (-) TimerEvent: {}
+[9.288712] (xv_ros2_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xv_ros2_msgs/xv_ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.288916] (xv_ros2_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xv_ros2_msgs/xv_ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.288988] (xv_ros2_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xv_ros2_msgs/xv_ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.320259] (xv_ros2_msgs) StdoutLine: {'line': b'[100%] Built target xv_ros2_msgs__rosidl_typesupport_c__pyext\n'}
+[9.320410] (xv_ros2_msgs) StdoutLine: {'line': b'[100%] Built target xv_ros2_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[9.320453] (xv_ros2_msgs) StdoutLine: {'line': b'[100%] Built target xv_ros2_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.328312] (xv_ros2_msgs) CommandEnded: {'returncode': 0}
+[9.331692] (-) TimerEvent: {}
+[9.431905] (-) TimerEvent: {}
+[9.512817] (xv_ros2_msgs) JobProgress: {'identifier': 'xv_ros2_msgs', 'progress': 'install'}
+[9.518309] (xv_ros2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs'], 'cwd': '/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs', 'env': OrderedDict([('HOSTNAME', '1b0a482909a8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros/ros2_ws/install/xv_ros2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/xvisio-cam'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/xdg_runtime_ros'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ros/ros2_ws/install/xv_sdk_ros2:/home/ros/ros2_ws/install/xv_ros2_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspaces/xvisio-cam/xvsdk-ros2/build/xv_ros2_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros/ros2_ws/install/xv_ros2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ros2_ws/install/xv_sdk_ros2:/home/ros/ros2_ws/install/xv_ros2_msgs:/opt/ros/humble')]), 'shell': False}
+[9.523293] (xv_ros2_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.523409] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/ament_index/resource_index/rosidl_interfaces/xv_ros2_msgs\n'}
+[9.523475] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs\n'}
+[9.523534] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv\n'}
+[9.523592] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/get_orientation_at.h\n'}
+[9.523642] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/controller_start.h\n'}
+[9.523692] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/load_map_and_switch_cslam.h\n'}
+[9.523738] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/save_map_and_switch_cslam.h\n'}
+[9.523787] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/controller_stop.h\n'}
+[9.523833] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail\n'}
+[9.523879] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__functions.h\n'}
+[9.523926] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose__type_support.h\n'}
+[9.523973] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_stop__struct.h\n'}
+[9.524021] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation_at__functions.c\n'}
+[9.524069] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_stop__functions.h\n'}
+[9.524117] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose_at__struct.h\n'}
+[9.524164] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_stop__functions.c\n'}
+[9.524212] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation__functions.h\n'}
+[9.524260] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_start__functions.h\n'}
+[9.524308] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__type_support.h\n'}
+[9.524350] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__struct.h\n'}
+[9.524396] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__type_support.h\n'}
+[9.524443] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation_at__type_support.h\n'}
+[9.524492] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_start__struct.h\n'}
+[9.524550] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__functions.h\n'}
+[9.524610] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose_at__functions.c\n'}
+[9.524654] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose_at__type_support.h\n'}
+[9.524701] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation__functions.c\n'}
+[9.524750] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation__type_support.h\n'}
+[9.524799] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose_at__functions.h\n'}
+[9.524850] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_start__functions.c\n'}
+[9.524899] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation_at__functions.h\n'}
+[9.524946] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__functions.c\n'}
+[9.524993] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose__struct.h\n'}
+[9.525042] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation_at__struct.h\n'}
+[9.525092] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__functions.c\n'}
+[9.525142] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose__functions.h\n'}
+[9.525191] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose__functions.c\n'}
+[9.525238] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation__struct.h\n'}
+[9.525287] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__struct.h\n'}
+[9.525362] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_stop__type_support.h\n'}
+[9.525418] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_start__type_support.h\n'}
+[9.525455] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/get_orientation.h\n'}
+[9.525505] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/get_pose.h\n'}
+[9.525541] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/get_pose_at.h\n'}
+[9.525601] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg\n'}
+[9.525638] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/button_msg.h\n'}
+[9.525690] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/controller.h\n'}
+[9.525727] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/event_data.h\n'}
+[9.525781] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/color_depth.h\n'}
+[9.525818] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail\n'}
+[9.525871] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/controller__functions.c\n'}
+[9.525911] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/orientation_stamped__struct.h\n'}
+[9.525964] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/color_depth__functions.c\n'}
+[9.526001] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/color_depth__type_support.h\n'}
+[9.526054] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/event_data__functions.c\n'}
+[9.526097] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/event_data__struct.h\n'}
+[9.526129] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/button_msg__struct.h\n'}
+[9.526172] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/button_msg__type_support.h\n'}
+[9.526219] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/orientation_stamped__functions.c\n'}
+[9.526267] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/event_data__functions.h\n'}
+[9.526311] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/color_depth__struct.h\n'}
+[9.526359] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/button_msg__functions.c\n'}
+[9.526405] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/color_depth__functions.h\n'}
+[9.526453] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/orientation_stamped__functions.h\n'}
+[9.526504] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/event_data__type_support.h\n'}
+[9.526550] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/controller__type_support.h\n'}
+[9.526707] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/button_msg__functions.h\n'}
+[9.526767] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/controller__functions.h\n'}
+[9.526817] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/controller__struct.h\n'}
+[9.526864] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/orientation_stamped__type_support.h\n'}
+[9.526915] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.526963] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/orientation_stamped.h\n'}
+[9.527039] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/environment/library_path.sh\n'}
+[9.527110] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/environment/library_path.dsv\n'}
+[9.527201] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_generator_c.so\n'}
+[9.527410] (xv_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_generator_c.so" to ""\n'}
+[9.527467] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs\n'}
+[9.527505] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv\n'}
+[9.527552] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail\n'}
+[9.527610] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation__rosidl_typesupport_fastrtps_c.h\n'}
+[9.527647] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_start__rosidl_typesupport_fastrtps_c.h\n'}
+[9.527700] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_stop__rosidl_typesupport_fastrtps_c.h\n'}
+[9.527736] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[9.527791] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose_at__rosidl_typesupport_fastrtps_c.h\n'}
+[9.527828] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation_at__rosidl_typesupport_fastrtps_c.h\n'}
+[9.527884] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__rosidl_typesupport_fastrtps_c.h\n'}
+[9.527925] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__rosidl_typesupport_fastrtps_c.h\n'}
+[9.527982] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg\n'}
+[9.528019] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail\n'}
+[9.528056] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/color_depth__rosidl_typesupport_fastrtps_c.h\n'}
+[9.528106] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/controller__rosidl_typesupport_fastrtps_c.h\n'}
+[9.528161] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/event_data__rosidl_typesupport_fastrtps_c.h\n'}
+[9.528205] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/button_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[9.528240] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/orientation_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[9.528275] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.528322] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[9.528465] (xv_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.528519] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs\n'}
+[9.528561] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv\n'}
+[9.528615] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail\n'}
+[9.528651] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation_at__rosidl_typesupport_introspection_c.h\n'}
+[9.528706] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation__type_support.c\n'}
+[9.528744] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose__rosidl_typesupport_introspection_c.h\n'}
+[9.528800] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation__rosidl_typesupport_introspection_c.h\n'}
+[9.528839] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose_at__rosidl_typesupport_introspection_c.h\n'}
+[9.528892] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_stop__type_support.c\n'}
+[9.528929] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose_at__type_support.c\n'}
+[9.528973] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose__type_support.c\n'}
+[9.529016] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_stop__rosidl_typesupport_introspection_c.h\n'}
+[9.529064] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__rosidl_typesupport_introspection_c.h\n'}
+[9.529114] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__type_support.c\n'}
+[9.529164] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_start__rosidl_typesupport_introspection_c.h\n'}
+[9.529215] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_start__type_support.c\n'}
+[9.529273] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation_at__type_support.c\n'}
+[9.529329] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__type_support.c\n'}
+[9.529420] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__rosidl_typesupport_introspection_c.h\n'}
+[9.529475] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg\n'}
+[9.529525] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.529585] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail\n'}
+[9.529622] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/orientation_stamped__type_support.c\n'}
+[9.529675] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/controller__type_support.c\n'}
+[9.529712] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/controller__rosidl_typesupport_introspection_c.h\n'}
+[9.529765] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/event_data__type_support.c\n'}
+[9.529801] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/button_msg__rosidl_typesupport_introspection_c.h\n'}
+[9.529854] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/color_depth__rosidl_typesupport_introspection_c.h\n'}
+[9.529889] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/event_data__rosidl_typesupport_introspection_c.h\n'}
+[9.529942] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/button_msg__type_support.c\n'}
+[9.529975] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/color_depth__type_support.c\n'}
+[9.530023] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/orientation_stamped__rosidl_typesupport_introspection_c.h\n'}
+[9.530079] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_typesupport_introspection_c.so\n'}
+[9.530267] (xv_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.530314] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_typesupport_c.so\n'}
+[9.530463] (xv_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_typesupport_c.so" to ""\n'}
+[9.530516] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs\n'}
+[9.530562] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv\n'}
+[9.530600] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/get_pose_at.hpp\n'}
+[9.530653] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/get_pose.hpp\n'}
+[9.530689] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/get_orientation.hpp\n'}
+[9.530741] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/controller_stop.hpp\n'}
+[9.530776] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/controller_start.hpp\n'}
+[9.530827] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail\n'}
+[9.530862] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation__builder.hpp\n'}
+[9.530909] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__builder.hpp\n'}
+[9.530958] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose_at__builder.hpp\n'}
+[9.531005] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__traits.hpp\n'}
+[9.531053] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_stop__struct.hpp\n'}
+[9.531101] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation__traits.hpp\n'}
+[9.531153] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose__builder.hpp\n'}
+[9.531200] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation_at__builder.hpp\n'}
+[9.531248] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation__struct.hpp\n'}
+[9.531301] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_start__builder.hpp\n'}
+[9.531353] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__builder.hpp\n'}
+[9.531403] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation_at__struct.hpp\n'}
+[9.531456] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose__traits.hpp\n'}
+[9.531507] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose__struct.hpp\n'}
+[9.531564] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_start__struct.hpp\n'}
+[9.531622] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation_at__traits.hpp\n'}
+[9.531674] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__struct.hpp\n'}
+[9.531729] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose_at__traits.hpp\n'}
+[9.531782] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__struct.hpp\n'}
+[9.531838] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_start__traits.hpp\n'}
+[9.531891] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__traits.hpp\n'}
+[9.531925] (-) TimerEvent: {}
+[9.532009] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_stop__traits.hpp\n'}
+[9.532060] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose_at__struct.hpp\n'}
+[9.532103] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_stop__builder.hpp\n'}
+[9.532153] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/save_map_and_switch_cslam.hpp\n'}
+[9.532215] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/get_orientation_at.hpp\n'}
+[9.532275] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/load_map_and_switch_cslam.hpp\n'}
+[9.532328] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg\n'}
+[9.532384] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/orientation_stamped.hpp\n'}
+[9.532419] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/controller.hpp\n'}
+[9.532471] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/color_depth.hpp\n'}
+[9.532505] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/button_msg.hpp\n'}
+[9.532557] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail\n'}
+[9.532613] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/event_data__builder.hpp\n'}
+[9.532648] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/color_depth__struct.hpp\n'}
+[9.532700] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/orientation_stamped__builder.hpp\n'}
+[9.532740] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/controller__builder.hpp\n'}
+[9.532793] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/controller__struct.hpp\n'}
+[9.532828] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/button_msg__struct.hpp\n'}
+[9.532876] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/color_depth__traits.hpp\n'}
+[9.532928] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/event_data__struct.hpp\n'}
+[9.532978] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/color_depth__builder.hpp\n'}
+[9.533027] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/event_data__traits.hpp\n'}
+[9.533076] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/controller__traits.hpp\n'}
+[9.533125] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/button_msg__builder.hpp\n'}
+[9.533175] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/orientation_stamped__struct.hpp\n'}
+[9.533224] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/orientation_stamped__traits.hpp\n'}
+[9.533273] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/button_msg__traits.hpp\n'}
+[9.533320] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/event_data.hpp\n'}
+[9.533385] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs\n'}
+[9.533460] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv\n'}
+[9.533496] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail\n'}
+[9.533555] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose_at__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.533599] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.533635] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/dds_fastrtps\n'}
+[9.533690] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_stop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.533726] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.533776] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.533826] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.533872] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_start__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.533918] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation_at__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.533971] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg\n'}
+[9.534024] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail\n'}
+[9.534058] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/color_depth__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.534110] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/event_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.534149] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/dds_fastrtps\n'}
+[9.534202] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/button_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.534237] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/orientation_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.534283] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.534332] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.534384] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.534631] (xv_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.534697] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs\n'}
+[9.534783] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv\n'}
+[9.534834] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail\n'}
+[9.534880] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.534939] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation_at__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.535001] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.535047] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_stop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.535107] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_start__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.535175] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose_at__type_support.cpp\n'}
+[9.535221] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.535265] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_start__type_support.cpp\n'}
+[9.535321] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/save_map_and_switch_cslam__type_support.cpp\n'}
+[9.535390] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation_at__type_support.cpp\n'}
+[9.535437] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/controller_stop__type_support.cpp\n'}
+[9.535497] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__type_support.cpp\n'}
+[9.535542] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/load_map_and_switch_cslam__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.535601] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose__type_support.cpp\n'}
+[9.535646] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_pose_at__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.535703] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/srv/detail/get_orientation__type_support.cpp\n'}
+[9.535759] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg\n'}
+[9.535802] (xv_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail\n'}
+[9.535844] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/button_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.535899] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/controller__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.535967] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/event_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.536003] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/color_depth__type_support.cpp\n'}
+[9.536048] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/event_data__type_support.cpp\n'}
+[9.536090] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/button_msg__type_support.cpp\n'}
+[9.536144] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/orientation_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.536211] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/controller__type_support.cpp\n'}
+[9.536247] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/color_depth__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.536284] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/include/xv_ros2_msgs/xv_ros2_msgs/msg/detail/orientation_stamped__type_support.cpp\n'}
+[9.536339] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[9.536534] (xv_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.536595] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_typesupport_cpp.so\n'}
+[9.536745] (xv_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[9.536797] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/environment/pythonpath.sh\n'}
+[9.536841] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/environment/pythonpath.dsv\n'}
+[9.536907] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs-0.0.0-py3.10.egg-info\n'}
+[9.536978] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.537024] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.537073] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.537119] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.537174] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs\n'}
+[9.537221] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv\n'}
+[9.537264] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_get_pose_at_s.c\n'}
+[9.537311] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_get_orientation_at.py\n'}
+[9.537363] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_get_pose_s.c\n'}
+[9.537409] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_get_orientation_at_s.c\n'}
+[9.537502] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_get_orientation.py\n'}
+[9.537562] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_controller_stop_s.c\n'}
+[9.537614] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_get_pose_at.py\n'}
+[9.537668] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_controller_start.py\n'}
+[9.537722] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/__init__.py\n'}
+[9.537777] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_get_pose.py\n'}
+[9.537832] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_load_map_and_switch_cslam.py\n'}
+[9.537885] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_save_map_and_switch_cslam.py\n'}
+[9.537940] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_controller_start_s.c\n'}
+[9.537994] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_get_orientation_s.c\n'}
+[9.538059] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_controller_stop.py\n'}
+[9.538095] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_save_map_and_switch_cslam_s.c\n'}
+[9.538136] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_load_map_and_switch_cslam_s.c\n'}
+[9.538190] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/_xv_ros2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.538245] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/xv_ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.538294] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg\n'}
+[9.538339] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_orientation_stamped.py\n'}
+[9.538390] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_controller_s.c\n'}
+[9.538436] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_button_msg.py\n'}
+[9.538489] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_event_data.py\n'}
+[9.538536] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_orientation_stamped_s.c\n'}
+[9.538591] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/__init__.py\n'}
+[9.538645] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_event_data_s.c\n'}
+[9.538689] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_button_msg_s.c\n'}
+[9.538738] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_controller.py\n'}
+[9.538783] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_color_depth.py\n'}
+[9.538826] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_color_depth_s.c\n'}
+[9.538877] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/__init__.py\n'}
+[9.538923] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/xv_ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.539011] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/_xv_ros2_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.539114] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/_xv_ros2_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[9.539212] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/libxv_ros2_msgs__rosidl_generator_py.so\n'}
+[9.539310] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/xv_ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.573379] (xv_ros2_msgs) StdoutLine: {'line': b"Listing '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs'...\n"}
+[9.573555] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/__init__.py'...\n"}
+[9.573612] (xv_ros2_msgs) StdoutLine: {'line': b"Listing '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg'...\n"}
+[9.573649] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/__init__.py'...\n"}
+[9.573683] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_button_msg.py'...\n"}
+[9.573717] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_color_depth.py'...\n"}
+[9.573759] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_controller.py'...\n"}
+[9.573794] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_event_data.py'...\n"}
+[9.574001] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/msg/_orientation_stamped.py'...\n"}
+[9.574035] (xv_ros2_msgs) StdoutLine: {'line': b"Listing '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv'...\n"}
+[9.574070] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/__init__.py'...\n"}
+[9.574113] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_controller_start.py'...\n"}
+[9.574152] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_controller_stop.py'...\n"}
+[9.574190] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_get_orientation.py'...\n"}
+[9.574225] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_get_orientation_at.py'...\n"}
+[9.574271] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_get_pose.py'...\n"}
+[9.574312] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_get_pose_at.py'...\n"}
+[9.574347] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_load_map_and_switch_cslam.py'...\n"}
+[9.574381] (xv_ros2_msgs) StdoutLine: {'line': b"Compiling '/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/srv/_save_map_and_switch_cslam.py'...\n"}
+[9.576808] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/xv_ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.576957] (xv_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/xv_ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.577069] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/xv_ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.577245] (xv_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/xv_ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.577342] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/xv_ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.577528] (xv_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/local/lib/python3.10/dist-packages/xv_ros2_msgs/xv_ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.577581] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_generator_py.so\n'}
+[9.577815] (xv_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/lib/libxv_ros2_msgs__rosidl_generator_py.so" to ""\n'}
+[9.577867] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/msg/OrientationStamped.idl\n'}
+[9.577919] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/msg/ColorDepth.idl\n'}
+[9.578009] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetOrientation.idl\n'}
+[9.578079] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetOrientationAt.idl\n'}
+[9.578147] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetPose.idl\n'}
+[9.578214] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetPoseAt.idl\n'}
+[9.578283] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/LoadMapAndSwitchCslam.idl\n'}
+[9.578351] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/SaveMapAndSwitchCslam.idl\n'}
+[9.578418] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/ControllerStart.idl\n'}
+[9.578482] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/ControllerStop.idl\n'}
+[9.578551] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/msg/Controller.idl\n'}
+[9.578639] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/msg/EventData.idl\n'}
+[9.578706] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/msg/ButtonMsg.idl\n'}
+[9.578770] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/msg/OrientationStamped.msg\n'}
+[9.578835] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/msg/ColorDepth.msg\n'}
+[9.578902] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetOrientation.srv\n'}
+[9.578964] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetOrientation_Request.msg\n'}
+[9.579032] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetOrientation_Response.msg\n'}
+[9.579099] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetOrientationAt.srv\n'}
+[9.579165] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetOrientationAt_Request.msg\n'}
+[9.579233] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetOrientationAt_Response.msg\n'}
+[9.579297] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetPose.srv\n'}
+[9.579362] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetPose_Request.msg\n'}
+[9.579433] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetPose_Response.msg\n'}
+[9.579499] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetPoseAt.srv\n'}
+[9.579566] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetPoseAt_Request.msg\n'}
+[9.579639] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/GetPoseAt_Response.msg\n'}
+[9.579704] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/LoadMapAndSwitchCslam.srv\n'}
+[9.579770] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/LoadMapAndSwitchCslam_Request.msg\n'}
+[9.579837] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/LoadMapAndSwitchCslam_Response.msg\n'}
+[9.579908] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/SaveMapAndSwitchCslam.srv\n'}
+[9.579979] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/SaveMapAndSwitchCslam_Request.msg\n'}
+[9.580050] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/SaveMapAndSwitchCslam_Response.msg\n'}
+[9.580116] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/ControllerStart.srv\n'}
+[9.580184] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/ControllerStart_Request.msg\n'}
+[9.580255] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/ControllerStart_Response.msg\n'}
+[9.580325] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/ControllerStop.srv\n'}
+[9.580390] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/ControllerStop_Request.msg\n'}
+[9.580456] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/srv/ControllerStop_Response.msg\n'}
+[9.580523] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/msg/Controller.msg\n'}
+[9.580598] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/msg/EventData.msg\n'}
+[9.580660] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/msg/ButtonMsg.msg\n'}
+[9.580751] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/ament_index/resource_index/package_run_dependencies/xv_ros2_msgs\n'}
+[9.580840] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/ament_index/resource_index/parent_prefix_path/xv_ros2_msgs\n'}
+[9.580923] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/environment/ament_prefix_path.sh\n'}
+[9.580996] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/environment/ament_prefix_path.dsv\n'}
+[9.581068] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/environment/path.sh\n'}
+[9.581190] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/environment/path.dsv\n'}
+[9.581248] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/local_setup.bash\n'}
+[9.581299] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/local_setup.sh\n'}
+[9.581346] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/local_setup.zsh\n'}
+[9.581414] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/local_setup.dsv\n'}
+[9.581481] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/package.dsv\n'}
+[9.581569] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/ament_index/resource_index/packages/xv_ros2_msgs\n'}
+[9.581668] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/export_xv_ros2_msgs__rosidl_generator_cExport.cmake\n'}
+[9.581745] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/export_xv_ros2_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.581824] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/export_xv_ros2_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.581897] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/export_xv_ros2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.581974] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/xv_ros2_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.582046] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/xv_ros2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.582121] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/xv_ros2_msgs__rosidl_typesupport_cExport.cmake\n'}
+[9.582191] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/xv_ros2_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.582270] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/export_xv_ros2_msgs__rosidl_generator_cppExport.cmake\n'}
+[9.582348] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/export_xv_ros2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.582421] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/export_xv_ros2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.582494] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/xv_ros2_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.582572] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/xv_ros2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.582655] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/xv_ros2_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[9.582728] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/xv_ros2_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.582800] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/export_xv_ros2_msgs__rosidl_generator_pyExport.cmake\n'}
+[9.582872] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/export_xv_ros2_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.582944] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[9.583012] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.583080] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.583155] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.583234] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.583305] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.583372] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.583443] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/xv_ros2_msgsConfig.cmake\n'}
+[9.583495] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/cmake/xv_ros2_msgsConfig-version.cmake\n'}
+[9.583570] (xv_ros2_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/xvisio-cam/xvsdk-ros2/install/xv_ros2_msgs/share/xv_ros2_msgs/package.xml\n'}
+[9.585452] (xv_ros2_msgs) CommandEnded: {'returncode': 0}
+[9.632053] (-) TimerEvent: {}
+[9.732370] (-) TimerEvent: {}
+[9.778089] (xv_ros2_msgs) JobEnded: {'identifier': 'xv_ros2_msgs', 'rc': 0}
+[9.778535] (-) EventReactorShutdown: {}

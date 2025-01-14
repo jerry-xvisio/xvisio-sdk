@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from xv_ros2_msgs/srv/GetOrientation.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "xv_ros2_msgs/msg/OrientationStamped.idl"
+
+module xv_ros2_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct GetOrientation_Request {
+      builtin_interfaces::msg::Duration prediction;
+    };
+    @verbatim (language="comment", text=
+      "response")
+    struct GetOrientation_Response {
+      xv_ros2_msgs::msg::OrientationStamped orientation;
+    };
+  };
+};

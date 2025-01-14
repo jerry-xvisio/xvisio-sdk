@@ -1,0 +1,4 @@
+source;share/xv_sdk_ros2/local_setup.bash
+source;share/xv_sdk_ros2/local_setup.dsv
+source;share/xv_sdk_ros2/local_setup.sh
+source;share/xv_sdk_ros2/local_setup.zsh
