@@ -1,1 +1,6 @@
 this is only for test`
+,Open /etc/default/grub file,Find and replace GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" with this GRUB_CMDLINE_LINUX_DEFAULT="quiet splash usbcore.usbfs_memory_mb=128"
+2,Update grub
+  sudo update-grub
+3,Reboot and check
+  cat /sys/module/usbcore/parameters/usbfs_memory_mb
